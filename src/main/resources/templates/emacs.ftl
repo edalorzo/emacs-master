@@ -24,17 +24,17 @@
                         <div class="col-md-2">
                             <div class="dropdown" style="margin-top:10px">
                                 
-                                <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="key-bindings-dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a class="btn btn-dark dropdown-toggle" href="#" role="button" id="key-bindings-dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Key Bindings
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="key-bindings-dd">
-                                    <a class="dropdown-item" href="#help">Help</a>
-                                    <a class="dropdown-item" href="#navigation">Navigation</a>
-                                    <a class="dropdown-item" href="#files">Files</a>
-                                    <a class="dropdown-item" href="#windows">Windows</a>
-                                    <a class="dropdown-item" href="#frames">Frames</a>
-                                    <a class="dropdown-item" href="#buffer-list">Buffer List</a>
+                                    <a class="dropdown-item" href="emacs?ref=help">Help</a>
+                                    <a class="dropdown-item" href="emacs?ref=navigation">Navigation</a>
+                                    <a class="dropdown-item" href="emacs?ref=files">Files</a>
+                                    <a class="dropdown-item" href="emacs?ref=windows">Windows</a>
+                                    <a class="dropdown-item" href="emacs?ref=frames">Frames</a>
+                                    <a class="dropdown-item" href="emacs?ref=buffer-list">Buffer List</a>
                                 </div>
                                 
                             </div>
@@ -50,12 +50,7 @@
             <div class="row">
 
                 <div class="col-sm-12">
-                    <#include "help.ftl">
-                    <#include "navigation.ftl">
-                    <#include "files.ftl">
-                    <#include "windows.ftl">
-                    <#include "frames.ftl">
-                    <#include "buffer-list.ftl">
+                    <#include "${reference}.ftl">
                 </div>
 
             </div>
