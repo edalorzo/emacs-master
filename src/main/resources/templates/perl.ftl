@@ -127,7 +127,11 @@
                 </tr>
             </tbody>
         </table>
-        <h4><i class="fas fa-lightbulb"></i> Additional Customizations</h4>
+    </div>
+</div>
+<div class="row mt-4">
+    <div class="col-sm-12">
+        <h2><i class="fas fa-lightbulb"></i> Additional Customizations</h2>
         <p>
             I have <a href="https://github.com/technomancy/better-defaults">better-defaults</a> and
             <a href="https://www.emacswiki.org/emacs/PerlDevelopEnvironment">PDE</a> installed; however they have
@@ -138,5 +142,15 @@
             <code class="lisp">(global-set-key (kbd "M-/") 'hippie-expand)
 (global-set-key (kbd "M-;") 'dabbrev-expand)</code>
         </pre>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <h2>Further Reference</h2>
+        <ul>
+            <li><a href="https://www.emacswiki.org/emacs/PerlDevelopEnvironment" target="_blank">EmacsWiki:Perl Development Environment</a></li>
+            <li><a href="http://cpansearch.perl.org/src/YEWENBIN/Emacs-PDE-0.2.16/lisp/doc/QuickStartEn.html" target="_blank">Beginning Perl Programing with Emacs</a></li>
+            <li><a href="http://cpansearch.perl.org/src/YEWENBIN/Emacs-PDE-0.2.16/lisp/doc/pde.html">Perl Development Environment</a></li>
+        </ul>
     </div>
 </div>

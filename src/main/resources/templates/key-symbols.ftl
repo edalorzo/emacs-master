@@ -38,16 +38,18 @@
             </table>
         </div>
         <div class="col-sm-7 offset-md-1 mt-4">
-            <h4><i class="fas fa-lightbulb"></i> Additional Tips</h4>
-            <p>
-                For example <code>C-x s</code> means that we must press and hold <code>Control</code>,
-                then press <code>x</code>, release both keys, then press <code>s</code>.
-            </p>
+            <!-- <h4><i class="icon-batman"></i> Symbology</h4> -->
             <p>
                 The <code>meta</code> key <a href="https://www.gnu.org/software/emacs/manual/html_node/efaq/No-Meta-key.html">typically means</a>
-                the <code>alt</code> key, but it can also be mapped to the <code>Escape</code> key, e.g. <code>M-x</code> means
-                press and hold <code>Alt</code> and then press <code>x</code>. Alternatively, you can press and release <code>Escape</code>
-                and then press <code>x</code>.
+                the <code>alt</code> key, but it can also be mapped to the <code>Escape</code> key.
+            </p>
+            <p>
+                A key binding like <code>C-x s</code> means that we must press and hold <code>Control</code> and then <code>x</code>,
+                release the keys, and then press <code>s</code>.
+            </p>
+            <p>
+                Whereas a key binding like <code>M-x</code> means press and hold <code>Alt</code> and then press <code>x</code>.
+                Alternatively, we can press and release <code>Escape</code> and then press <code>x</code>.
             </p>
         </div>
     </div>

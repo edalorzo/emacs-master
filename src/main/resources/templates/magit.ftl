@@ -124,3 +124,12 @@
         </table>
     </div>
 </div>
+<div class="row mt-4">
+    <div class="col-md-12">
+        <h2>Further Reference</h2>
+        <ul>
+            <li><a href="https://magit.vc" target="_blank">Magit</a></li>
+            <li><a href="https://www.emacswiki.org/emacs/Magit" target="_blank">EmacsWiki:Magit</a></li>
+        </ul>
+    </div>
+</div>

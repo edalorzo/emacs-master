@@ -457,3 +457,11 @@
 
     </div>
 </div>
+<div class="row mt-4">
+    <div class="col-sm-12">
+        <h2>Further Reference</h2>
+        <ul>
+            <li><a href="http://web-mode.org" target="_blank">Web Mode</a></li>
+        </ul>
+    </div>
+</div>
