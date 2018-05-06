@@ -22,6 +22,7 @@ public class EmacsController {
         references.put("buffer-list", "buffer-list");
         references.put("magit", "magit");
         references.put("perl", "perl");
+        references.put("web", "web");
     }
 
     

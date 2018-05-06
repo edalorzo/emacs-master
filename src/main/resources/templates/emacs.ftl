@@ -19,7 +19,7 @@
                 <div class="col-sm-12">
 
                     <div class="row">
-                        <div class="col-md-10"><h1><i class="icon-paperclip"></i> Emacs Key Bindings Reference</h1></div>
+                        <div class="col-md-10"><h1><i class="fas fa-keyboard"></i> Emacs Key Bindings Reference</h1></div>
                         
                         <div class="col-md-2">
                             <div class="dropdown" style="margin-top:10px">
@@ -38,6 +38,7 @@
                                     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item" href="emacs?ref=magit">Magit</a>
                                     <a class="dropdown-item" href="emacs?ref=perl">Perl</a>
+                                    <a class="dropdown-item" href="emacs?ref=web">Web</a>
                                     <!-- <a class="dropdown-item" href="emacs?ref=java">Java</a> -->
                                     <!-- <a class="dropdown-item" href="emacs?ref=javascript">JavaScript</a> -->
                                 </div>

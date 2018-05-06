@@ -38,7 +38,7 @@
             </table>
         </div>
         <div class="col-sm-7 offset-md-1 mt-4">
-            <h4><i class="fas fa-lightbulb"></i> Additinal Tips</h4>
+            <h4><i class="fas fa-lightbulb"></i> Additional Tips</h4>
             <p>
                 For example <code>C-x s</code> means that we must press and hold <code>Control</code>,
                 then press <code>x</code>, release both keys, then press <code>s</code>.
