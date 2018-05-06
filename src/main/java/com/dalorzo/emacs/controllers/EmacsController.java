@@ -20,6 +20,8 @@ public class EmacsController {
         references.put("windows", "windows");
         references.put("frames", "frames");
         references.put("buffer-list", "buffer-list");
+        references.put("magit", "magit");
+        references.put("perl", "perl");
     }
 
     
@@ -27,7 +29,7 @@ public class EmacsController {
     @RequestMapping("/emacs")
     public ModelAndView  getEmacsKeyBinding(@RequestParam("ref") Optional<String> reference) {
         Map<String, Object> model = new HashMap<>();
-        model.put("reference", references.get(reference.orElse("help")));
+        model.put("reference", references.getOrDefault(reference.orElse("help"),"help"));
         return new ModelAndView("emacs", model);
     }
 }
