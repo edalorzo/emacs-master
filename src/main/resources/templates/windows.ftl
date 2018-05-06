@@ -122,3 +122,18 @@
         </table>
     </div>
 </div>
+<div class="row mt-4">
+    <div class="col-sm-12">
+        <h2 id="files">Further Reference</h2>
+        <ul>
+            <li><a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/Windows.html" target="_blank">Emacs Manual: Multiple Windows</a></li>
+            <li><a href="http://ergoemacs.org/emacs/emacs.html"target="_blank">Practical Emacs</a>
+                <ul>
+                    <li><a href="http://ergoemacs.org/emacs/emacs_winner_mode.html" target="_blank">Save Split Windows Configuration</a></li>
+                    <li><a href="http://ergoemacs.org/emacs/emacs_effective_windows_management.html" target="_blank">Effective Windows Management</a></li>
+                    <li><a href="http://ergoemacs.org/emacs/emacs_widescreen_newspaper_columns.html" target="_blank">Make Buffer Flow Side-by-Side</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>

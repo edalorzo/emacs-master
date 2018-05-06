@@ -64,3 +64,19 @@
         </table>
     </div>
 </div>
+<div class="row mt-4">
+    <div class="col-sm-12">
+        <h2 id="files">Further Reference</h2>
+        <ul>
+            <li><a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/Files.html" target="_blank">Emacs Manual: File Handling</a></li>
+            <li><a href="http://ergoemacs.org/emacs/emacs.html"target="_blank">Practical Emacs</a>
+                <ul>
+                    <li><a href="http://ergoemacs.org/emacs/emacs_recentf.html" target="_blank">Open Recently Opened File</a></li>
+                    <li><a href="http://ergoemacs.org/emacs/rename_file_pattern.html" target="_blank">Batch Rename Files</a></li>
+                    <li><a href="http://ergoemacs.org/emacs/emacs_save_restore_opened_files.html" target="_blank">Restore Opened Files</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+                
