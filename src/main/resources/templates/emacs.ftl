@@ -19,35 +19,34 @@
                 <div class="col-sm-12">
 
                     <div class="row">
-                        <div class="col-xs-11"><h1><i class="icon-paperclip"></i> Emacs Key Bindings Reference</h1></div>
+                        <div class="col-md-10"><h1><i class="icon-paperclip"></i> Emacs Key Bindings Reference</h1></div>
+                        
+                        <div class="col-md-2">
+                            <div class="dropdown" style="margin-top:10px">
+                                
+                                <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="key-bindings-dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Key Bindings
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="key-bindings-dd">
+                                    <a class="dropdown-item" href="#help">Help</a>
+                                    <a class="dropdown-item" href="#navigation">Navigation</a>
+                                    <a class="dropdown-item" href="#files">Files</a>
+                                    <a class="dropdown-item" href="#windows">Windows</a>
+                                    <a class="dropdown-item" href="#frames">Frames</a>
+                                    <a class="dropdown-item" href="#buffer-list">Buffer List</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
                     </div>
                     
                     <#include "key-symbols.ftl">
                     
                 </div>
             </div>
-
-            <div class="row">
-                <div class="offset-md-10 col-md-2">
-                    
-                    <div class="dropdown">
-                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="key-bindings-dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Key Bindings
-                        </a>
-
-                        <div class="dropdown-menu" aria-labelledby="key-bindings-dd">
-                            <a class="dropdown-item" href="#help">Help</a>
-                            <a class="dropdown-item" href="#navigation">Navigation</a>
-                            <a class="dropdown-item" href="#files">Files</a>
-                            <a class="dropdown-item" href="#windows">Windows</a>
-                            <a class="dropdown-item" href="#frames">Frames</a>
-                            <a class="dropdown-item" href="#buffer-list">Buffer List</a>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-
+            
             <div class="row">
 
                 <div class="col-sm-12">
