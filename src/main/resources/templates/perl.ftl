@@ -11,6 +11,16 @@
             </thead>
             <tbody>
                 <tr>
+                    <td><kbd>C</kbd>-<kbd>o</kbd></td>
+                    <td>open-line</td>
+                    <td>Inserts a blank line after point</td>
+                </tr>
+                <tr>
+                    <td><kbd>C</kbd>-<kbd>x</kbd> <kbd>C</kbd>-<kbd>o</kbd></td>
+                    <td>delete-blank-lines</td>
+                    <td>Deletes all but one of many consecutive blank lines</td>
+                </tr>
+                <tr>
                     <td><kbd>C</kbd>-<kbd>M</kbd> <kbd>\</kbd></td>
                     <td>indent-region</td>
                     <td>Indents selected region</td>
@@ -38,7 +48,7 @@
                 <tr>
                     <td><kbd>C</kbd>-<kbd>c</kbd> <kbd>f</kbd></td>
                     <td>comint-dynamic-complete</td>
-                    <td>Performs completion on the text around point.</td>
+                    <td>Performs completion on the text around point</td>
                 </tr>
                 <tr>
                     <td><kbd>M</kbd>-<kbd>'</kbd></td>
@@ -48,8 +58,49 @@
                 <tr>
                     <td><kbd>M</kbd>-<kbd>\</kbd></td>
                     <td>delete-horizontal-space</td>
-                    <td>Deletes all spaces and tabs around point.</td>
+                    <td>Deletes all spaces and tabs around point</td>
                 </tr>
+                <tr>
+                    <td><kbd>C</kbd>-<kbd>c</kbd>&nbsp<kbd>s</kbd></td>
+                    <td>compile-dwim-compile</td>
+                    <td>Compiles current buffer using <code>perl</code> command</td>
+                </tr>
+                <tr>
+                    <td><kbd>C</kbd>-<kbd>c</kbd>&nbsp<kbd>r</kbd></td>
+                    <td>compile-dwim-run</td>
+                    <td>Runs current buffer using <code>perl</code> command</td>
+                </tr>
+                <tr>
+                    <td><kbd>C</kbd>-<kbd>c</kbd>&nbsp<kbd>j</kbd></td>
+                    <td>ffap</td>
+                    <td>Finds a file guessing its name from text around point</td>
+                </tr>
+                <tr>
+                    <td><kbd>C</kbd>-<kbd>c</kbd>&nbsp<kbd>i</kbd></td>
+                    <td>imenu</td>
+                    <td>Jumps to a place in the buffer chosen using a buffer menu</td>
+                </tr>
+                <tr>
+                    <td><kbd>C</kbd>-<kbd>c</kbd>&nbsp<kbd>h</kbd></td>
+                    <td>help-dwim</td>
+                    <td>Shows help info for a given name</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="row mt-4">
+    <div class="col-sm-12">
+        <h2 id="navigating-expression"><i class="icon-parentheses"></i> Navigating over Balanced Expressions</h2>
+        <table class="table table-striped table-sm">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Key Binding</th>
+                    <th scope="col">Command</th>
+                    <th scope="col">Description</th>
+                </tr>
+            </thead>
+            <tbody>
                 <tr>
                     <td><kbd>C</kbd>-<kbd>M</kbd>-<kbd>a</kbd></td>
                     <td>beginning-of-defun</td>
@@ -76,19 +127,34 @@
                     <td>Moves backward out of one level of parentheses</td>
                 </tr>
                 <tr>
-                    <td><kbd>M</kbd>-<kbd>{</kbd></td>
-                    <td>backward-paragraph</td>
-                    <td>Moves the point backward one paragraph</td>
+                    <td><kbd>C</kbd>-<kbd>M</kbd>-<kbd>n</kbd></td>
+                    <td>forward-list</td>
+                    <td>Moves forward across one balanced group of parentheses</td>
                 </tr>
                 <tr>
-                    <td><kbd>M</kbd>-<kbd>}</kbd></td>
-                    <td>forward-paragraph</td>
-                    <td>Moves the point forward one paragraph</td>
+                    <td><kbd>C</kbd>-<kbd>M</kbd>-<kbd>p</kbd></td>
+                    <td>backward-list</td>
+                    <td>Moves backwards across one balanced group of parentheses</td>
                 </tr>
                 <tr>
-                    <td><kbd>M</kbd>-<kbd>h</kbd></td>
-                    <td>mark-paragraph</td>
-                    <td>Puts point at beginning of this paragraph, mark at end</td>
+                    <td><kbd>C</kbd>-<kbd>M</kbd>-<kbd>f</kbd></td>
+                    <td>forward-sexp</td>
+                    <td>Moves forward over a balanced expression</td>
+                </tr>
+                <tr>
+                    <td><kbd>C</kbd>-<kbd>M</kbd>-<kbd>p</kbd></td>
+                    <td>backward-sexp</td>
+                    <td>Moves forward over a balanced expression</td>
+                </tr>
+                <tr>
+                    <td><kbd>C</kbd>-<kbd>M</kbd>-<kbd>k</kbd></td>
+                    <td>kill-sexp</td>
+                    <td>Kill balanced expression forward</td>
+                </tr>
+                <tr>
+                    <td><kbd>C</kbd>-<kbd>M</kbd>-<kbd>SPC</kbd></td>
+                    <td>mark-sexp</td>
+                    <td>Put the mark at the end of the sexp</td>
                 </tr>
                 <tr>
                     <td><kbd>C</kbd>-<kbd>M</kbd>-<kbd>h</kbd></td>
@@ -99,31 +165,6 @@
                     <td><kbd>C</kbd>-<kbd>x</kbd>-<kbd>h</kbd></td>
                     <td>mark-whole-buffer</td>
                     <td>Puts point at beginning and mark at end of buffer</td>
-                </tr>
-                <tr>
-                    <td><kbd>C</kbd>-<kbd>c</kbd>&nbsp<kbd>s</kbd></td>
-                    <td>compile-dwim-compile</td>
-                    <td>Compiles current buffer using perl command</td>
-                </tr>
-                <tr>
-                    <td><kbd>C</kbd>-<kbd>c</kbd>&nbsp<kbd>r</kbd></td>
-                    <td>compile-dwim-run</td>
-                    <td>Runs current buffer using perl command</td>
-                </tr>
-                <tr>
-                    <td><kbd>C</kbd>-<kbd>c</kbd>&nbsp<kbd>j</kbd></td>
-                    <td>ffap</td>
-                    <td>Finds a file guessing its name from text around point</td>
-                </tr>
-                <tr>
-                    <td><kbd>C</kbd>-<kbd>c</kbd>&nbsp<kbd>i</kbd></td>
-                    <td>imenu</td>
-                    <td>Jumps to a place in the buffer chosen using a buffer menu</td>
-                </tr>
-                <tr>
-                    <td><kbd>C</kbd>-<kbd>c</kbd>&nbsp<kbd>h</kbd></td>
-                    <td>help-dwim</td>
-                    <td>Shows help info for a given name</td>
                 </tr>
             </tbody>
         </table>
@@ -148,9 +189,14 @@
     <div class="col-sm-12">
         <h2 id="further-reference">Further Reference</h2>
         <ul>
-            <li><a href="https://www.emacswiki.org/emacs/PerlDevelopEnvironment" target="_blank">EmacsWiki:Perl Development Environment</a></li>
             <li><a href="http://cpansearch.perl.org/src/YEWENBIN/Emacs-PDE-0.2.16/lisp/doc/QuickStartEn.html" target="_blank">Beginning Perl Programing with Emacs</a></li>
             <li><a href="http://cpansearch.perl.org/src/YEWENBIN/Emacs-PDE-0.2.16/lisp/doc/pde.html">Perl Development Environment</a></li>
+            <li><a href="https://www.emacswiki.org/" target="_blank">Emacs Wiki</a>
+                <ul>
+                    <li><a href="https://www.emacswiki.org/emacs/PerlDevelopEnvironment" target="_blank">Perl Development Environment</a></li>
+                    <li><a href="https://www.emacswiki.org/emacs/NavigatingParentheses" target="_blank">Navigating Parentheses</a></li>
+                </ul>
+            </li>
         </ul>
     </div>
 </div>
