@@ -66,7 +66,7 @@
 </div>
 <div class="row mt-4">
     <div class="col-sm-12">
-        <h2 id="files">Further Reference</h2>
+        <h2 id="further-reference">Further Reference</h2>
         <ul>
             <li><a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/Files.html" target="_blank">Emacs Manual: File Handling</a></li>
             <li><a href="http://ergoemacs.org/emacs/emacs.html"target="_blank">Practical Emacs</a>

@@ -16,6 +16,7 @@ public class EmacsController {
     {
         references.put("help", "help");
         references.put("navigation", "navigation");
+        references.put("edition", "edition");
         references.put("files", "files");
         references.put("windows", "windows");
         references.put("frames", "frames");

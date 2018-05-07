@@ -31,6 +31,7 @@
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="key-bindings-dd">
                                     <a class="dropdown-item" href="emacs?ref=help">Help</a>
                                     <a class="dropdown-item" href="emacs?ref=navigation">Navigation</a>
+                                    <a class="dropdown-item" href="emacs?ref=edition">Edition</a>
                                     <a class="dropdown-item" href="emacs?ref=files">Files</a>
                                     <a class="dropdown-item" href="emacs?ref=windows">Windows</a>
                                     <a class="dropdown-item" href="emacs?ref=frames">Frames</a>

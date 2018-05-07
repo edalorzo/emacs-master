@@ -131,7 +131,7 @@
                     <td>Toggles placing point in screen in the top, middle and bottom of window</td>
                 </tr>
                 <tr>
-                    <td><kbd>M</kbd>-<kbd>g</kbd> <kbd>M</kbd>-<kbd>g</kbd></td>
+                    <td><kbd>M</kbd>-<kbd>g</kbd> <kbd>g</kbd></td>
                     <td>goto-line</td>
                     <td>Takes the point to the given line in the buffer</td>
                 </tr>
@@ -142,5 +142,13 @@
                 </tr>
             </tbody>
         </table>
+    </div>
+</div>
+<div class="row mt-4">
+    <div class="col-sm-12">
+        <h2 id="further-reference">Further Reference</h2>
+        <ul>
+            <li><a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/Moving-Point.html" target="_blank">Emacs Manual: Changing the Location of Point</a></li>
+        </ul>
     </div>
 </div>

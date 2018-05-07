@@ -131,7 +131,7 @@
 </div>
 <div class="row mt-4">
     <div class="col-sm-12">
-        <h2><i class="fas fa-lightbulb"></i> Additional Customizations</h2>
+        <h2 id="additional-customizations"><i class="fas fa-lightbulb"></i> Additional Customizations</h2>
         <p>
             I have <a href="https://github.com/technomancy/better-defaults">better-defaults</a> and
             <a href="https://www.emacswiki.org/emacs/PerlDevelopEnvironment">PDE</a> installed; however they have
@@ -146,7 +146,7 @@
 </div>
 <div class="row">
     <div class="col-sm-12">
-        <h2>Further Reference</h2>
+        <h2 id="further-reference">Further Reference</h2>
         <ul>
             <li><a href="https://www.emacswiki.org/emacs/PerlDevelopEnvironment" target="_blank">EmacsWiki:Perl Development Environment</a></li>
             <li><a href="http://cpansearch.perl.org/src/YEWENBIN/Emacs-PDE-0.2.16/lisp/doc/QuickStartEn.html" target="_blank">Beginning Perl Programing with Emacs</a></li>

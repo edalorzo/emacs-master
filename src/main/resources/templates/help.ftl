@@ -36,6 +36,11 @@
                     <td>Describes a function</td>
                 </tr>
                 <tr>
+                    <td><kbd>C</kbd>-<kbd>h</kbd> <kbd>i</kbd></td>
+                    <td>info-goto-emacs-command-node</td>
+                    <td>Starts Info documentation reader</td>
+                </tr>
+                <tr>
                     <td><kbd>C</kbd>-<kbd>h</kbd> <kbd>k</kbd></td>
                     <td>describe-key</td>
                     <td>Describes a key combination</td>
@@ -53,7 +58,7 @@
                 <tr>
                     <td><kbd>C</kbd>-<kbd>h</kbd> <kbd>t</kbd></td>
                     <td>help-with-tutorial</td>
-                    <td>Help with tutorial</td>
+                    <td>Starts the Emacs tutorial.</td>
                 </tr>
                 <tr>
                     <td><kbd>C</kbd>-<kbd>h</kbd> <kbd>v</kbd></td>
@@ -72,5 +77,13 @@
                 </tr>
             </tbody>
         </table>
+    </div>
+</div>
+<div class="row mt-4">
+    <div class="col-sm-12">
+        <h2 id="futher-reference">Further Reference</h2>
+        <ul>
+            <li><a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/Help.html" target="_blank">Emacs Manual: Help</a></li>
+        </ul>
     </div>
 </div>

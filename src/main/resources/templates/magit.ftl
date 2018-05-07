@@ -1,6 +1,6 @@
 <div class="row mt-4">
     <div class="col-sm-12">
-        <h2 id="magit"><i class="fas fa-code-branch"></i> Magit Mode</h2>
+        <h2 id="magit-mode"><i class="fas fa-code-branch"></i> Magit Mode</h2>
         <table class="table table-striped table-sm">
             <thead class="thead-dark">
                 <tr>
@@ -67,7 +67,7 @@
                 </tr>
             </tbody>
         </table>
-        <h2><i class="icon-projectmerge"></i> Magit Status</h2>
+        <h2 id="magit-status"><i class="icon-projectmerge"></i> Magit Status</h2>
         <p>
             Once you we reach the magit status buffer (<kbd>C</kbd>-<kbd>x</kbd> <kbd>g</kbd>), we can use
             the following keystrokes in that buffer:
@@ -126,7 +126,7 @@
 </div>
 <div class="row mt-4">
     <div class="col-md-12">
-        <h2>Further Reference</h2>
+        <h2 id="further-reference">Further Reference</h2>
         <ul>
             <li><a href="https://magit.vc" target="_blank">Magit</a></li>
             <li><a href="https://www.emacswiki.org/emacs/Magit" target="_blank">EmacsWiki:Magit</a></li>

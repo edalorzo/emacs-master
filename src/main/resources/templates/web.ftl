@@ -1,7 +1,7 @@
 <div class="row mt-4">
     <div class="col-sm-12">
 
-        <h2 id="web"><i class="icon-html"></i> Web Mode</h2>
+        <h2 id="web-mode"><i class="icon-html"></i> Web Mode</h2>
 
         <p>The default <code>html-mode</code> is a little too basic and that’s
             why I prefer <a href="http://web-mode.org" target="_blank">web-mode</a>
@@ -14,7 +14,7 @@
                 <div class="card-header" id="web-mode-general">
                     <h5 class="mb-0">
                         <button class="btn btn-link key-section" type="button" data-toggle="collapse" data-target="#web-mode-general-keys" aria-expanded="true" aria-controls="web-mode-general-keys">
-                            <h4>General</h4>
+                            <h4 id="general">General</h4>
                         </button>
                     </h5>
                 </div>
@@ -72,7 +72,7 @@
                 <div class="card-header" id="web-mode-html-element">
                     <h5 class="mb-0">
                         <button class="btn btn-link key-section" type="button" data-toggle="collapse" data-target="#web-mode-html-element-keys" aria-expanded="false" aria-controls="web-mode-html-element-keys">
-                            <h4>HTML Element</h4>
+                            <h4 id="html-element">HTML Element</h4>
                         </button>
                     </h5>
                 </div>
@@ -192,7 +192,7 @@
                 <div class="card-header" id="web-mode-dom">
                     <h5 class="mb-0">
                         <button class="btn btn-link key-section" type="button" data-toggle="collapse" data-target="#web-mode-dom-keys" aria-expanded="false" aria-controls="web-mode-dom-keys">
-                            <h4>DOM</h4>
+                            <h4 id="dom">DOM</h4>
                         </button>
                     </h5>
                 </div>
@@ -257,7 +257,7 @@
                 <div class="card-header" id="web-mode-html-tag">
                     <h5 class="mb-0">
                         <button class="btn btn-link key-section" type="button" data-toggle="collapse" data-target="#web-mode-html-tag-keys" aria-expanded="false" aria-controls="web-mode-html-tag-keys">
-                            <h4>HTML Tag</h4>
+                            <h4 id="html-tag">HTML Tag</h4>
                         </button>
                     </h5>
                 </div>
@@ -322,7 +322,7 @@
                 <div class="card-header" id="web-mode-block">
                     <h5 class="mb-0">
                         <button class="btn btn-link key-section" type="button" data-toggle="collapse" data-target="#web-mode-block-keys" aria-expanded="false" aria-controls="web-mode-block-keys">
-                            <h4>Block</h4>
+                            <h4 id="block">Block</h4>
                         </button>
                     </h5>
                 </div>
@@ -387,7 +387,7 @@
                 <div class="card-header" id="web-mode-html-attributes">
                     <h5 class="mb-0">
                         <button class="btn btn-link key-section" type="button" data-toggle="collapse" data-target="#web-mode-html-attributes-keys" aria-expanded="false" aria-controls="web-mode-html-attributes-keys">
-                            <h4>HTML Attributes</h4>
+                            <h4 id="html-attributes">HTML Attributes</h4>
                         </button>
                     </h5>
                 </div>
@@ -459,7 +459,7 @@
 </div>
 <div class="row mt-4">
     <div class="col-sm-12">
-        <h2>Further Reference</h2>
+        <h2 id="further-reference">Further Reference</h2>
         <ul>
             <li><a href="http://web-mode.org" target="_blank">Web Mode</a></li>
         </ul>

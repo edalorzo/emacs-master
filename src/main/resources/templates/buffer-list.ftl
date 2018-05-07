@@ -1,7 +1,7 @@
 <div class="row mt-4">
     <div class="col-md-12">
         <h2 id="buffer-list"><i class="icon-th-list"></i> Buffer List</h2>
-        <p>
+        <P>
             We open the buffer list window by pressing <kbd>C</kbd>-<kbd>x</kbd> <kbd>C</kbd>-<kbd>b</kbd>
             and once there we can use the following keystrokes:
         </p>
@@ -86,5 +86,19 @@
                 </tr>
             </tbody>
         </table>
+    </div>
+</div>
+<div class="row mt-4">
+    <div class="col-md-12">
+        <h2 id="further-reference">Further Reference</h2>
+        <ul>
+            <li><a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/Buffers.html">Emacs Manual: Using Multiple Buffers</a></li>
+            <li><a href="http://ergoemacs.org/emacs/emacs.html" target="_blank">Practical Emacs</a>
+                <ul>
+                    <li><a href="http://ergoemacs.org/emacs/emacs_buffer_management.html" target="_blank">List Buffer</a></li>
+                    <li><a href="http://ergoemacs.org/emacs/emacs_buffer_switching.html" target="_blank">Switch Buffer</a></li>
+                </ul>
+            </li>
+        </ul>
     </div>
 </div>
