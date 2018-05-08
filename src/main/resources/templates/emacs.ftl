@@ -36,6 +36,7 @@
                                     <a class="dropdown-item" href="emacs?ref=windows">Windows</a>
                                     <a class="dropdown-item" href="emacs?ref=frames">Frames</a>
                                     <a class="dropdown-item" href="emacs?ref=buffer-list">Buffer List</a>
+                                    <a class="dropdown-item" href="emacs?ref=appearance">Appearance</a>
                                     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item" href="emacs?ref=magit">Magit</a>
                                     <a class="dropdown-item" href="emacs?ref=perl">Perl</a>

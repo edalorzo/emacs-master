@@ -21,6 +21,7 @@ public class EmacsController {
         references.put("windows", "windows");
         references.put("frames", "frames");
         references.put("buffer-list", "buffer-list");
+        references.put("appearance", "appearance");
         references.put("magit", "magit");
         references.put("perl", "perl");
         references.put("web", "web");
